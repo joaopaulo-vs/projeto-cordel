@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+header {
+    font-family: "Passion One";
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    font-size: clamp(1em, 6.5vw, 6.5em);
+}
+span{
+    font-size: clamp(1em, 9vw, 9em);
+ }
+header p {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    
+    margin: 10px;
+}
+body main{
+    margin: 50px 0px 20px 0px;
+    background-color: white;
+    color: black;
+}
+main p{
+    font: italic clamp(1.2em, 2.5vw, 2.5em) /2em "Sriracha";
+}
+article > p {
+    padding: 20px;
+}
+.photo-text {
+    text-shadow: 1px 1px 2px black;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.541);
+    background-clip: padding-box;
+    color: white;
+    
+    
+}
+#beija-flor{
+    background-image: url(imagens/background001.jpg);
+}
+#livro {
+    background-image: url(imagens/background002.jpg);
+}
+.photo{
+    background-size: cover;
+    height: fit-content;
+    background-position: center right;
+    background-attachment: fixed;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+footer p {
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(156, 156, 156);
+}
